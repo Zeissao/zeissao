@@ -5,7 +5,7 @@
 >> Cycling  |  Travel  |  Astronomy  |  Photography  |  Ping-pong    
 
 ![Zeissao's GitHub stats](https://github-readme-stats.vercel.app/api?username=zeissao&show_icons=true&theme=swift)
-![Zeissao's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zeissao&hide_border=true&layout=compact&langs_count=10)   
+![Zeissao's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zeissao&layout=compact&langs_count=10)   
 ## ![GitHub](https://img.shields.io/badge/GitHub-black?logo=github) ![Windows](https://img.shields.io/badge/Windows-blue?logo=Windows) ![Python](https://img.shields.io/badge/Python-green?logo=Python) ![HUAWEI](https://img.shields.io/badge/HUAWEI-red?logo=HUAWEI)
 ## > CONTACT ME 📫
 zeissao@qq.com & thinkercai@stu.xjtu.edu.cn
