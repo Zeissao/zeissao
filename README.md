@@ -5,7 +5,7 @@
 >> Cycling  |  Travel  |  Astr 904E95 onomy  |  Photography  |  Ping-pong    
 
 ![Zeissao's GitHub stats](https://github-readme-stats.vercel.app/api?username=zeissao&show_icons=true&bg_color=0,E66346,904E95&title_color=FFFFFF&text_color=FFFFFF&icon_color=FFFFFF&hide_border=True)
-![Zeissao's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zeissao&langs_count=10&bg_color=45,E04C4C,FDD819&title_color=FFFFFF&text_color=FFFFFF&hide_border=True&layout=compact)   
+![Zeissao's Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zeissao&langs_count=10&bg_color=0,E04C4C,FDD819&title_color=FFFFFF&text_color=FFFFFF&hide_border=True&layout=compact)   
 ## ![GitHub](https://img.shields.io/badge/GitHub-black?logo=github) ![Windows](https://img.shields.io/badge/Windows-blue?logo=Windows) ![Adobe](https://img.shields.io/badge/Adobe-red?logo=Adobe) ![Python](https://img.shields.io/badge/Python-green?logo=Python) ![HUAWEI](https://img.shields.io/badge/HUAWEI-red?logo=HUAWEI)
 ## > CONTACT ME 📫
 zeissao@qq.com & thinkercai@stu.xjtu.edu.cn
