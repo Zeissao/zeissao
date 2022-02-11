@@ -11,3 +11,4 @@
 zeissao@qq.com & thinkercai@stu.xjtu.edu.cn
 ## > VISITORS 🌎
 <a href="https://info.flagcounter.com/Rybv"><img src="https://s04.flagcounter.com/map/Rybv/size_l/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+[![Zeissao's GitHub stats](https://github-readme-stats.vercel.app/api?username=zeissao)](https://github.com/zeissao/github-readme-stats)
