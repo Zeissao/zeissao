@@ -1,25 +1,26 @@
 def fdprnbs(a,b):
     coordinates=[]
     for i in range(a,b+1,1):
-        coordinates.append(i)
-        for j in range(2,i,1):
-            k=i%j
-            if k==0:
-                coordinates.pop()
-                break
-        percentage='{:.2%}'.format(i/b)
-        if i!=b:
-            spin=int(dt.datetime.now().strftime('%S'))
-            if spin%4==0:
-                print("计算中==",percentage,end='\r')
-            elif spin%4==1:
-                print("计算中\\\\",percentage,end='\r')
-            elif spin%4==2:
-                print("计算中||",percentage,end='\r')
+        if i%2!=0:
+            coordinates.append(i)
+            for j in range(2,int(i**0.5),1):
+                k=i%j
+                if k==0:
+                    coordinates.pop()
+                    break
+            percentage='{:.2%}'.format(i/b)
+            if i!=b:
+                spin=int(dt.datetime.now().strftime('%S'))
+                if spin%4==0:
+                    print("计算中==",percentage,end='\r')
+                elif spin%4==1:
+                    print("计算中\\\\",percentage,end='\r')
+                elif spin%4==2:
+                    print("计算中||",percentage,end='\r')
+                else:
+                    print("计算中//",percentage,end='\r')
             else:
-                print("计算中//",percentage,end='\r')
-        else:
-            print("计算完成 ",percentage)
+                print("计算完成 ",percentage)
     if a==0:
         coordinates.pop(0)
         coordinates.pop(0)
@@ -27,8 +28,8 @@ def fdprnbs(a,b):
         coordinates.pop(0)
     return coordinates
 print("此程序可以展示一定区间内的素数在极坐标中的分布情况，其中每一个坐标的极径与极角值均等于对应的素数值")
-import matplotlib.pyplot as plt
 from timeit import default_timer as timer
+import matplotlib.pyplot as plt
 import datetime as dt
 data=input("输入整数区间，用空格隔开：")
 while data!="end":
