@@ -1,9 +1,11 @@
 def prime_nums(a,b):
     coordinates=[]
     if (a==0 and (b==0 or b==1)) or (a==1 and b==1):
+        print("计算完成： {}".format("100.00%"))
         return coordinates
     if (a==0 or a==1) and b==2:
         coordinates.append(2)
+        print("计算完成： {}".format("100.00%"))
         return coordinates
     for i in range(a,b+1,1):
         judge=0
@@ -19,17 +21,17 @@ def prime_nums(a,b):
             if i!=b:
                 spin=int(dt.datetime.now().strftime('%S'))
                 if spin%4==0:
-                    print("计算中==",percentage,end='\r')
+                    print("计算中-：{}".format(percentage),end='\r')
                 elif spin%4==1:
-                    print("计算中\\\\",percentage,end='\r')
+                    print("计算中\：{}".format(percentage),end='\r')
                 elif spin%4==2:
-                    print("计算中||",percentage,end='\r')
+                    print("计算中|：{}".format(percentage),end='\r')
                 else:
-                    print("计算中//",percentage,end='\r')
-            else:
-                print("计算完成 ",percentage)
+                    print("计算中/：{}".format(percentage),end='\r')
     coordinates[0]=2
+    print("计算完成： {}".format(percentage))
     return coordinates
+
 print("此程序可以展示一定区间内的素数在极坐标中的分布情况，其中每一个坐标的极径与极角值均等于对应的素数值")
 from timeit import default_timer as timer
 import matplotlib.pyplot as plt
