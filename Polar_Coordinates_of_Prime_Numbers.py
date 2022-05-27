@@ -7,10 +7,13 @@ def prime_nums(a,b):
         coordinates.append(2)
         print("计算完成： {}".format("100.00%"))
         return coordinates
+    if a==2 and b==2:
+        coordinates.append(2)
+        return coordinates
     for i in range(a,b+1,1):
         judge=0
         if i%2!=0:
-            for j in range(2,int(i**0.5),1):
+            for j in range(2,int(i**0.5+1),1):
                 k=i%j
                 if k==0:
                     judge=1
@@ -28,7 +31,13 @@ def prime_nums(a,b):
                     print("计算中|： {}".format(percentage),end='\r')
                 else:
                     print("计算中/： {}".format(percentage),end='\r')
-    coordinates[0]=2
+    if len(coordinates)==0:
+        return 0
+    if 1 in coordinates:
+        position=coordinates.index(1)
+        coordinates[position]=2
+    if (2 not in coordinates) and (a<=2 and b>=2):
+        coordinates.append(2)
     print("计算完成： {}".format("100.00%"))
     return coordinates
 
@@ -51,7 +60,8 @@ while data!="end":
                     lauch=1
                     begin=timer()    
                     points=prime_nums(a,b)
-                    plt.polar(points,points,'.',markersize=1)
+                    if points!=0:
+                        plt.polar(points,points,'.',markersize=1,color='#FF5511')
                     over=timer()
                     TIME=over-begin
                     temp_minutes=int(TIME/60)
@@ -60,7 +70,10 @@ while data!="end":
                     hours=int(temp_minutes/60)
                     minutes=int(temp_minutes%60)
                     print("用时：",hours,"时",minutes,"分",seconds,"秒")
-                    plt.show()
+                    if points!=0 and (not ((a==0 and (b==0 or b==1)) or (a==1 and b==1))):
+                        plt.show()
+                    else:
+                        print("此区间中不含素数")
                     data=input("输入区间继续，输入end退出程序：")
                 elif confirm=="no":
                     lauch=1
@@ -71,7 +84,8 @@ while data!="end":
         else:
             begin=timer()    
             points=prime_nums(a,b)
-            plt.polar(points,points,'.',markersize=1)
+            if points!=0:
+                plt.polar(points,points,'.',markersize=1,color='#FF5511')
             over=timer()
             TIME=over-begin
             temp_minutes=int(TIME/60)
@@ -80,7 +94,10 @@ while data!="end":
             hours=int(temp_minutes/60)
             minutes=int(temp_minutes%60)
             print("用时：",hours,"时",minutes,"分",seconds,"秒")
-            plt.show()
+            if points!=0 and (not ((a==0 and (b==0 or b==1)) or (a==1 and b==1))):
+                plt.show()
+            else:
+                print("此区间中不含素数")
             data=input("输入区间继续，输入end退出程序：")
     except:
         print("输入有误，请重新输入!")
