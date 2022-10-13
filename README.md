@@ -1,6 +1,8 @@
 # WELCOME TO MY HOMEPAGE! 👋 
 ## > ABOUT ME 😀
->> I'm learning C recently. In the last semister, I learned Python, which is believed to be easier and more concise than C. Anyway, I'll try my best to have a good command of C. This is my first github account and repository, so it may not seem that beautiful and organised due to the unfamiliar operation of this site. Last but not least, warmly welcome to communicate with me, and the contact information is listed on the bottom!         
+>> I'm learning MATLAB and Python recently.
+>> I am new to github, so i am not very familiar with the operation of this site. 
+>> Warmly welcome to communicate with me, and the contact information is listed on the bottom!         
   
 >> Cycling  |  Travel  |  Astronomy  |  Photography  |  Ping-pong    
 
