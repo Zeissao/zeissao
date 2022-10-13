@@ -1,7 +1,9 @@
 # WELCOME TO MY HOMEPAGE! 👋 
 ## > ABOUT ME 😀
 >> I'm learning MATLAB and Python recently.
+>> 
 >> I am new to github, so i am not very familiar with the operation of this site. 
+>> 
 >> Warmly welcome to communicate with me, and the contact information is listed on the bottom!         
   
 >> Cycling  |  Travel  |  Astronomy  |  Photography  |  Ping-pong    
